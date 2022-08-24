@@ -28,8 +28,8 @@ class Circle {
 }
 
 
-var circle = new Circle(canvas.width / 2, canvas.height / 2, 20, "red");
-var circle2 = new Circle(30, 30, 20, "yellow");
+var circle = new Circle(canvas.width / 2, canvas.height / 2, 30, "red");
+var circle2 = new Circle(30, 30, 30, "yellow");
 
 addEventListener("mousemove", (e) => {
     circle2.x = e.offsetX;
