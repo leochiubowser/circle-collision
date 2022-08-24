@@ -10,6 +10,7 @@ function background() {
     ctx.fillRect(0, 0, canvas.width, canvas.height);
 }
 
+
 class Circle {
     constructor(x, y, radius, color) {
         this.x = x;
